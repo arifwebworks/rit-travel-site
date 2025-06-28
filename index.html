@@ -1,0 +1,1130 @@
+                    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIT Travel & Tours</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0d6efd',
+                        secondary: '#6c757d',
+                        success: '#198754',
+                        info: '#0dcaf0',
+                        warning: '#ffc107',
+                        danger: '#dc3545',
+                        light: '#f8f9fa',
+                        dark: '#212529',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img class="h-8 w-auto" src="https://picsum.photos/seed/rittravel/200/200.jpg" alt="RIT Travel & Tours">
+                        <span class="ml-2 text-xl font-bold text-primary">RIT Travel & Tours</span>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                        <a href="#" class="border-primary text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Home
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Umrah Packages
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Visa Services
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Flight Booking
+                        </a>
+                        <a href="#" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Hotel Booking
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:items-center">
+                    <button class="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Book Now
+                    </button>
+                    <button class="ml-4 bg-white border border-gray-300 rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        Login
+                    </button>
+                    <button class="ml-4 bg-primary text-white rounded-md px-4 py-2 text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        Register
+                    </button>
+                </div>
+                <div class="-mr-2 flex items-center sm:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative bg-gradient-to-r from-blue-500 to-indigo-600 pt-16 pb-20 px-4 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative flex flex-col lg:flex-row">
+                <div class="lg:w-1/2">
+                    <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
+                        <span class="block">Your Dream Journey</span>
+                        <span class="block text-yellow-300">Starts With Us</span>
+                    </h1>
+                    <p class="mt-3 max-w-md text-lg text-white sm:text-xl md:mt-5 md:max-w-3xl">
+                        Experience the world with our premium travel services. From Umrah packages to exotic vacations, we make your journey unforgettable.
+                    </p>
+                    <div class="mt-10 sm:flex sm:justify-start">
+                        <div class="rounded-md shadow">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                                Explore Packages
+                            </a>
+                        </div>
+                        <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-600 md:py-4 md:text-lg md:px-10">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 mt-10 lg:mt-0">
+                    <img class="rounded-lg shadow-xl" src="https://picsum.photos/seed/travelhero/800/600.jpg" alt="Travel">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base font-semibold text-primary tracking-wide uppercase">SERVICES</h2>
+                <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Our Services</p>
+                <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">We offer comprehensive travel solutions to make your journey smooth and memorable.</p>
+            </div>
+
+            <div class="mt-12">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                    <!-- Service Card 1 -->
+                    <div class="pt-6">
+                        <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                            <div class="-mt-6">
+                                <div>
+                                    <span class="inline-flex items-center justify-center p-3 bg-primary rounded-md shadow-lg">
+                                        <i class="fas fa-plane text-white text-xl"></i>
+                                    </span>
+                                </div>
+                                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Flight Booking</h3>
+                                <p class="mt-5 text-base text-gray-500">
+                                    Book flights to your destination with our competitive rates and flexible options.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="pt-6">
+                        <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                            <div class="-mt-6">
+                                <div>
+                                    <span class="inline-flex items-center justify-center p-3 bg-primary rounded-md shadow-lg">
+                                        <i class="fas fa-hotel text-white text-xl"></i>
+                                    </span>
+                                </div>
+                                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Hotel Booking</h3>
+                                <p class="mt-5 text-base text-gray-500">
+                                    Find and book accommodations that match your preferences and budget.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="pt-6">
+                        <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                            <div class="-mt-6">
+                                <div>
+                                    <span class="inline-flex items-center justify-center p-3 bg-primary rounded-md shadow-lg">
+                                        <i class="fas fa-mosque text-white text-xl"></i>
+                                    </span>
+                                </div>
+                                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Umrah Packages</h3>
+                                <p class="mt-5 text-base text-gray-500">
+                                    Special packages designed for a spiritual journey to the holy cities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="pt-6">
+                        <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                            <div class="-mt-6">
+                                <div>
+                                    <span class="inline-flex items-center justify-center p-3 bg-primary rounded-md shadow-lg">
+                                        <i class="fas fa-passport text-white text-xl"></i>
+                                    </span>
+                                </div>
+                                <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Visa Services</h3>
+                                <p class="mt-5 text-base text-gray-500">
+                                    Hassle-free visa processing for your international travel needs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Umrah Packages Section -->
+    <div class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base font-semibold text-primary tracking-wide uppercase">UMRAH PACKAGES</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Spiritual Journey</p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Choose from our carefully crafted Umrah packages to perform your religious duties comfortably.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Package Card 1 -->
+                    <div class="bg-white overflow-hidden shadow rounded-lg">
+                        <div class="relative pb-2/3">
+                            <img class="h-48 w-full object-cover" src="https://picsum.photos/seed/umrah1/600/400.jpg" alt="Umrah Package">
+                        </div>
+                        <div class="px-4 py-4">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-medium text-gray-900">Standard Umrah Package</h3>
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                    Available
+                                </span>
+                            </div>
+                            <p class="mt-2 text-sm text-gray-500">
+                                5 Days stay in Makkah & Madinah, 3* hotel, inclusive of flight, transportation and visa.
+                            </p>
+                            <div class="mt-4 flex justify-between items-center">
+                                <p class="text-xl font-bold text-primary">PKR 120,000</p>
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package Card 2 -->
+                    <div class="bg-white overflow-hidden shadow rounded-lg">
+                        <div class="relative pb-2/3">
+                            <img class="h-48 w-full object-cover" src="https://picsum.photos/seed/umrah2/600/400.jpg" alt="Umrah Package">
+                        </div>
+                        <div class="px-4 py-4">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-medium text-gray-900">Premium Umrah Package</h3>
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                    Available
+                                </span>
+                            </div>
+                            <p class="mt-2 text-sm text-gray-500">
+                                7 Days stay in Makkah & Madinah, 5* hotel, inclusive of flight, transportation and visa.
+                            </p>
+                            <div class="mt-4 flex justify-between items-center">
+                                <p class="text-xl font-bold text-primary">PKR 180,000</p>
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Package Card 3 -->
+                    <div class="bg-white overflow-hidden shadow rounded-lg">
+                        <div class="relative pb-2/3">
+                            <img class="h-48 w-full object-cover" src="https://picsum.photos/seed/umrah3/600/400.jpg" alt="Umrah Package">
+                        </div>
+                        <div class="px-4 py-4">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-medium text-gray-900">Deluxe Umrah Package</h3>
+                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
+                                    Limited
+                                </span>
+                            </div>
+                            <p class="mt-2 text-sm text-gray-500">
+                                10 Days stay in Makkah & Madinah, 5* hotel with extra services, inclusive of flight, transportation and visa.
+                            </p>
+                            <div class="mt-4 flex justify-between items-center">
+                                <p class="text-xl font-bold text-primary">PKR 250,000</p>
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        View All Packages
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visa Services Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base font-semibold text-primary tracking-wide uppercase">VISA SERVICES</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Hassle-Free Visas</p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    We handle all your visa requirements with efficiency and care.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Visa Card 1 -->
+                    <div class="bg-gray-50 overflow-hidden shadow rounded-lg">
+                        <div class="px-4 py-5 sm:p-6">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-primary rounded-md p-3">
+                                    <i class="fas fa-passport text-white"></i>
+                                </div>
+                                <div class="ml-5 w-0 flex-1">
+                                    <dl>
+                                        <dt class="text-sm font-medium text-gray-500 truncate">
+                                            Saudi Arabia Visa
+                                        </dt>
+                                        <dd>
+                                            <div class="text-lg font-medium text-gray-900">
+                                                Start from PKR 15,000
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm text-gray-500">
+                                    Get your Saudi visa processed quickly with our expert assistance.
+                                </p>
+                            </div>
+                            <div class="mt-6">
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Apply Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visa Card 2 -->
+                    <div class="bg-gray-50 overflow-hidden shadow rounded-lg">
+                        <div class="px-4 py-5 sm:p-6">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-primary rounded-md p-3">
+                                    <i class="fas fa-passport text-white"></i>
+                                </div>
+                                <div class="ml-5 w-0 flex-1">
+                                    <dl>
+                                        <dt class="text-sm font-medium text-gray-500 truncate">
+                                            UAE Visa
+                                        </dt>
+                                        <dd>
+                                            <div class="text-lg font-medium text-gray-900">
+                                                Start from PKR 12,000
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm text-gray-500">
+                                    Dubai, Abu Dhabi and other Emirates visa services available.
+                                </p>
+                            </div>
+                            <div class="mt-6">
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Apply Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visa Card 3 -->
+                    <div class="bg-gray-50 overflow-hidden shadow rounded-lg">
+                        <div class="px-4 py-5 sm:p-6">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0 bg-primary rounded-md p-3">
+                                    <i class="fas fa-passport text-white"></i>
+                                </div>
+                                <div class="ml-5 w-0 flex-1">
+                                    <dl>
+                                        <dt class="text-sm font-medium text-gray-500 truncate">
+                                            Schengen Visa
+                                        </dt>
+                                        <dd>
+                                            <div class="text-lg font-medium text-gray-900">
+                                                Start from PKR 25,000
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <p class="text-sm text-gray-500">
+                                    European visa services with comprehensive support.
+                                </p>
+                            </div>
+                            <div class="mt-6">
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Apply Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base font-semibold text-primary tracking-wide uppercase">TESTIMONIALS</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">What Our Clients Say</p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Real experiences from our satisfied customers.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Testimonial Card 1 -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center">
+                            <img class="h-12 w-12 rounded-full" src="https://picsum.photos/seed/client1/100/100.jpg" alt="Client">
+                            <div class="ml-4">
+                                <h4 class="text-lg font-bold">Muhammad Ali</h4>
+                                <p class="text-sm text-gray-500">Madinah, Saudi Arabia</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-gray-600">
+                                "RIT Travel made my Umrah journey hassle-free. From booking to guidance, everything was perfect. I highly recommend their services!"
+                            </p>
+                            <div class="mt-4 flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 2 -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center">
+                            <img class="h-12 w-12 rounded-full" src="https://picsum.photos/seed/client2/100/100.jpg" alt="Client">
+                            <div class="ml-4">
+                                <h4 class="text-lg font-bold">Fatima Khan</h4>
+                    <p class="text-sm text-gray-500">Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-gray-600">
+                            "The visa processing was smooth and quick. Their team was very helpful in guiding me through the entire process. Will definitely use their services again."
+                        </p>
+                        <div class="mt-4 flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <div class="flex items-center">
+                        <img class="h-12 w-12 rounded-full" src="https://picsum.photos/seed/client3/100/100.jpg" alt="Client">
+                        <div class="ml-4">
+                            <h4 class="text-lg font-bold">Ahmed Raza</h4>
+                            <p class="text-sm text-gray-500">Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-gray-600">
+                            "I booked a flight and hotel package through RIT Travel. Everything was perfectly arranged. The customer service is excellent and responsive."
+                        </p>
+                        <div class="mt-4 flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-base font-semibold text-primary tracking-wide uppercase">CONTACT US</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Have questions or need assistance? Reach out to us!
+                </p>
+            </div>
+
+            <div class="mt-10 bg-gray-50 rounded-lg shadow-lg p-8">
+                <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-900">Contact Information</h3>
+                        <div class="mt-4 space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-primary"></i>
+                                </div>
+                                <div class="ml-3 text-base text-gray-500">
+                                    <p>RIT Travel & Tours</p>
+                                    <p>123 Main Street, 4th Floor</p>
+                                    <p>Karachi, Pakistan - 74200</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-phone-alt text-primary"></i>
+                                </div>
+                                <div class="ml-3 text-base text-gray-500">
+                                    <p>+92 21 12345678</p>
+                                    <p>+92 300 1234567</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-envelope text-primary"></i>
+                                </div>
+                                <div class="ml-3 text-base text-gray-500">
+                                    <p>info@rittravels.com</p>
+                                    <p>support@rittravels.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-clock text-primary"></i>
+                                </div>
+                                <div class="ml-3 text-base text-gray-500">
+                                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p>Saturday: 10:00 AM - 2:00 PM</p>
+                                    <p>Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h4 class="text-md font-medium text-gray-900">Follow Us</h4>
+                            <div class="mt-4 flex space-x-6">
+                                <a href="#" class="text-gray-400 hover:text-primary">
+                                    <i class="fab fa-facebook-f text-xl"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-primary">
+                                    <i class="fab fa-twitter text-xl"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-primary">
+                                    <i class="fab fa-instagram text-xl"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-primary">
+                                    <i class="fab fa-linkedin-in text-xl"></i>
+                                </a>
+                                <a href="#" class="text-gray-400 hover:text-primary">
+                                    <i class="fab fa-whatsapp text-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-900">Send Us a Message</h3>
+                        <form class="mt-4 space-y-4">
+                            <div class="grid grid-cols-1 gap-y-4">
+                                <div>
+                                    <label for="name" class="sr-only">Full Name</label>
+                                    <input type="text" name="name" id="name" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-2 border" placeholder="Full Name">
+                                </div>
+                                <div>
+                                    <label for="email" class="sr-only">Email Address</label>
+                                    <input type="email" name="email" id="email" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-2 border" placeholder="Email Address">
+                                </div>
+                                <div>
+                                    <label for="subject" class="sr-only">Subject</label>
+                                    <input type="text" name="subject" id="subject" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-2 border" placeholder="Subject">
+                                </div>
+                                <div>
+                                    <label for="message" class="sr-only">Message</label>
+                                    <textarea id="message" name="message" rows="4" class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md p-2 border" placeholder="Your Message"></textarea>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center">
+                        <img class="h-10 w-auto" src="https://picsum.photos/seed/rittravel/200/200.jpg" alt="RIT Travel & Tours">
+                        <span class="ml-2 text-xl font-bold">RIT Travel & Tours</span>
+                    </div>
+                    <p class="mt-4 text-gray-300 text-sm">
+                        Your trusted travel partner for Umrah, Hajj, and international travel services. We make your journey smooth and memorable.
+                    </p>
+                    <div class="mt-6 flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase">Services</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Umrah Packages</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Hajj Packages</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Visa Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Flight Booking</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Hotel Booking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase">Company</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Partners</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase">Legal</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Refund Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">Cookie Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white">GDPR Compliance</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8">
+                <p class="text-base text-gray-400 text-center">
+                    &copy; 2023 RIT Travel & Tours. All rights reserved.
+                </p>
+                <p class="text-sm text-gray-400 text-center mt-2">
+                    Developed with ❤️ by <a href="https://github.com/ArifUllah" class="text-primary hover:underline">Arif Ullah</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg shadow-xl max-w-md w-full">
+            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                <h3 class="text-lg font-medium text-gray-900">Login to Your Account</h3>
+                <button id="closeLoginModal" class="text-gray-400 hover:text-gray-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="px-6 py-4">
+                <div class="mb-4">
+                    <label for="loginEmail" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="loginEmail" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <label for="loginPassword" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input type="password" id="loginPassword" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                        <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                        <label for="remember-me" class="ml-2 block text-sm text-gray-900">
+                            Remember me
+                        </label>
+                    </div>
+                    <div class="text-sm">
+                        <a href="#" class="font-medium text-primary hover:text-blue-500">
+                            Forgot password?
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        Login
+                    </button>
+                </div>
+            </div>
+            <div class="px-6 py-4 bg-gray-50 text-center">
+                <p class="text-sm text-gray-600">
+                    Don't have an account? 
+                    <button id="showRegisterModal" class="font-medium text-primary hover:text-blue-500">
+                        Register
+                    </button>
+                </p>
+                <div class="mt-4">
+                    <div class="relative">
+                        <div class="absolute inset-0 flex items-center">
+                            <div class="w-full border-t border-gray-300"></div>
+                        </div>
+                        <div class="relative flex justify-center text-sm">
+                            <span class="px-2 bg-gray-50 text-gray-500">
+                                Or continue with
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mt-6 grid grid-cols-2 gap-3">
+                        <div>
+                            <a href="#" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                <i class="fab fa-google mr-2"></i>
+                                Google
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                <i class="fab fa-facebook-f mr-2"></i>
+                                Facebook
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg shadow-xl max-w-md w-full">
+            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                <h3 class="text-lg font-medium text-gray-900">Create an Account</h3>
+                <button id="closeRegisterModal" class="text-gray-400 hover:text-gray-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="px-6 py-4">
+                <div class="mb-4">
+                    <label for="registerName" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="registerName" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <label for="registerEmail" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="registerEmail" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <label for="registerPassword" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input type="password" id="registerPassword" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <label for="confirmPassword" class="block text-sm font-medium text-gray-700">Confirm Password</label>
+                    <input type="password" id="confirmPassword" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <label for="userType" class="block text-sm font-medium text-gray-700">I am a</label>
+                    <select id="userType" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                        <option value="client">Client</option>
+                        <option value="agent">Travel Agent/Partner</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="terms" name="terms" type="checkbox" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                        </div>
+                        <div class="ml-3 text-sm">
+                            <label for="terms" class="font-medium text-gray-700">I agree to the</label>
+                            <a href="#" class="text-primary hover:text-blue-500">Terms of Service</a> and
+                            <a href="#" class="text-primary hover:text-blue-500">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        Register
+                    </button>
+                </div>
+            </div>
+            <div class="px-6 py-4 bg-gray-50 text-center">
+                <p class="text-sm text-gray-600">
+                    Already have an account? 
+                    <button id="showLoginModal" class="font-medium text-primary hover:text-blue-500">
+                        Login
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Invoice/Voucher Modal -->
+    <div id="invoiceModal" class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg shadow-xl max-w-4xl w-full">
+            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                <h3 class="text-lg font-medium text-gray-900">Booking Invoice & Voucher</h3>
+                <button id="closeInvoiceModal" class="text-gray-400 hover:text-gray-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="px-6 py-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="border border-gray-200 rounded-lg p-6 bg-white">
+                            <div class="flex justify-between items-start mb-6">
+                                <div>
+                                    <h2 class="text-xl font-bold text-gray-900">RIT Travel & Tours</h2>
+                                    <p class="text-sm text-gray-600 mt-1">123 Main Street, Karachi, Pakistan</p>
+                                    <p class="text-sm text-gray-600">Phone: +92 21 12345678</p>
+                                    <p class="text-sm text-gray-600">Email: info@rittravels.com</p>
+                                </div>
+                                <div class="text-right">
+                                    <h3 class="text-lg font-bold text-primary">INVOICE</h3>
+                                    <p class="text-sm text-gray-600 mt-1">Invoice #INV-2023-12345</p>
+                                    <p class="text-sm text-gray-600">Date: 2023-10-15</p>
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Client Details</h4>
+                                <p class="text-sm text-gray-600 mt-2">Muhammad Ali</p>
+                                <p class="text-sm text-gray-600">123 ABC Street, Karachi</p>
+                                <p class="text-sm text-gray-600">Phone: +92 300 1234567</p>
+                                <p class="text-sm text-gray-600">Email: client@example.com</p>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Booking Details</h4>
+                                <p class="text-sm text-gray-600 mt-2">Booking Reference: BKG-2023-78901</p>
+                                <p class="text-sm text-gray-600">Package: Premium Umrah Package</p>
+                                <p class="text-sm text-gray-600">Dates: 2023-11-01 to 2023-11-07</p>
+                                <p class="text-sm text-gray-600">Passengers: 2 Adults</p>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Payment Details</h4>
+                                <p class="text-sm text-gray-600 mt-2">Payment Method: Bank Transfer</p>
+                                <p class="text-sm text-gray-600">Payment Date: 2023-10-10</p>
+                                <p class="text-sm text-gray-600">Status: Partially Paid</p>
+                                <p class="text-sm text-gray-600">Amount Paid: PKR 60,000</p>
+                                <p class="text-sm text-gray-600">Balance Due: PKR 120,000</p>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Payment Instructions</h4>
+                                <p class="text-sm text-gray-600 mt-2">Bank Name: Meezan Bank</p>
+                                <p class="text-sm text-gray-600">Account Name: RIT Travel & Tours</p>
+                                <p class="text-sm text-gray-600">Account Number: 1234567890</p>
+                                <p class="text-sm text-gray-600">Swift Code: MEZNPKKA</p>
+                                <p class="text-sm text-gray-600">Please include your booking reference in the payment details.</p>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Notes</h4>
+                                <p class="text-sm text-gray-600 mt-2">
+                                    Final confirmation from agency required – prices may vary based on availability.
+                                </p>
+                                <p class="text-sm text-gray-600 mt-2">
+                                    Please contact our customer support for any queries regarding this invoice.
+                                </p>
+                            </div>
+                            <div class="flex justify-end">
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    <i class="fas fa-download mr-2"></i> Download PDF
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="border border-gray-200 rounded-lg p-6 bg-white">
+                            <div class="flex justify-between items-center mb-6">
+                                <h3 class="text-lg font-bold text-primary">UMRAH VOUCHER</h3>
+                                <div class="flex items-center">
+                                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://rittravels.com/voucher/BKG-2023-78901" alt="QR Code" class="h-24 w-24">
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Personal Details</h4>
+                                <p class="text-sm text-gray-600 mt-2">Passenger Name: Muhammad Ali</p>
+                                <p class="text-sm text-gray-600">Passport Number: PAK12345678</p>
+                                <p class="text-sm text-gray-600">Date of Birth: 15-05-1985</p>
+                                <p class="text-sm text-gray-600">Nationality: Pakistani</p>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Itinerary Details</h4>
+                                <p class="text-sm text-gray-600 mt-2">Departure Date: 2023-11-01</p>
+                                <p class="text-sm text-gray-600">Return Date: 2023-11-07</p>
+                                <p class="text-sm text-gray-600">Flights: Karachi → Jeddah → Karachi</p>
+                                <p class="text-sm text-gray-600">Accommodation: 5* Hotel in Makkah & Madinah</p>
+                                <p class="text-sm text-gray-600">Meals: Breakfast, Lunch, Dinner</p>
+                                <p class="text-sm text-gray-600">Transport: Airport & City Transfers</p>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Important Information</h4>
+                                <ul class="text-sm text-gray-600 mt-2 list-disc pl-5">
+                                    <li>Please carry this voucher during check-in.</li>
+                                    <li>Passport must be valid for at least 6 months from the date of travel.</li>
+                                    <li>Visa will be processed by our team and will be delivered 7-10 days before travel.</li>
+                                    <li>Any changes to the itinerary must be requested at least 7 days prior to travel.</li>
+                                    <li>Terms and conditions apply. Please read carefully.</li>
+                                </ul>
+                            </div>
+                            <div class="mb-6">
+                                <h4 class="font-medium text-gray-900">Emergency Contact</h4>
+                                <p class="text-sm text-gray-600 mt-2">Name: RIT Travel Support</p>
+                                <p class="text-sm text-gray-600">Phone: +92 21 12345678</p>
+                                <p class="text-sm text-gray-600">Email: support@rittravels.com</p>
+                            </div>
+                            <div class="flex justify-end">
+                                <button class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                                    <i class="fas fa-download mr-2"></i> Download Voucher
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Verification Modal -->
+    <div id="verificationModal" class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg shadow-xl max-w-md w-full">
+            <div class="px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                <h3 class="text-lg font-medium text-gray-900">Verify Booking</h3>
+                <button id="closeVerificationModal" class="text-gray-400 hover:text-gray-500">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="px-6 py-4">
+                <div class="mb-4">
+                    <label for="bookingReference" class="block text-sm font-medium text-gray-700">Booking Reference</label>
+                    <input type="text" id="bookingReference" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <label for="voucherId" class="block text-sm font-medium text-gray-700">Voucher ID</label>
+                    <input type="text" id="voucherId" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm">
+                </div>
+                <div class="mb-4">
+                    <button type="button" id="verifyButton" class="w-full inline-flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        Verify
+                    </button>
+                </div>
+                <div id="verificationResult" class="hidden">
+                    <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
+                        <div class="flex">
+                            <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-green-500 bg-green-100 rounded-lg">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="ml-3">
+                                <h3 class="font-medium">Booking Verified Successfully</h3>
+                                <div class="mt-2">
+                                    <p class="font-medium">Booking Reference: BKG-2023-78901</p>
+                                    <p class="font-medium">Voucher ID: VCH-2023-78901</p>
+                                    <p class="mt-2">This is a valid booking for Muhammad Ali. The booking is confirmed for the Premium Umrah Package from 2023-11-01 to 2023-11-07.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <button type="button" id="downloadVoucher" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                            <i class="fas fa-download mr-2"></i> Download Voucher
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Script -->
+    <script>
+        // Login Modal
+        const loginModal = document.getElementById('loginModal');
+        const showLoginModal = document.getElementById('showLoginModal');
+        const closeLoginModal = document.getElementById('closeLoginModal');
+        const loginButton = document.querySelector('nav button.bg-primary');
+        
+        if (showLoginModal) {
+            showLoginModal.addEventListener('click', () => {
+                loginModal.classList.remove('hidden');
+                registerModal.classList.add('hidden');
+            });
+        }
+        
+        if (closeLoginModal) {
+            closeLoginModal.addEventListener('click', () => {
+                loginModal.classList.add('hidden');
+            });
+        }
+        
+        if (loginButton) {
+            loginButton.addEventListener('click', () => {
+                loginModal.classList.remove('hidden');
+            });
+        }
+        
+        // Register Modal
+        const registerModal = document.getElementById('registerModal');
+        const showRegisterModal = document.getElementById('showRegisterModal');
+        const closeRegisterModal = document.getElementById('closeRegisterModal');
+        const registerButton = document.querySelector('nav button.bg-white');
+        
+        if (showRegisterModal) {
+            showRegisterModal.addEventListener('click', () => {
+                registerModal.classList.remove('hidden');
+                loginModal.classList.add('hidden');
+            });
+        }
+        
+        if (closeRegisterModal) {
+            closeRegisterModal.addEventListener('click', () => {
+                registerModal.classList.add('hidden');
+            });
+        }
+        
+        if (registerButton) {
+            registerButton.addEventListener('click', () => {
+                registerModal.classList.remove('hidden');
+            });
+        }
+        
+        // Invoice Modal
+        const invoiceModal = document.getElementById('invoiceModal');
+        const closeInvoiceModal = document.getElementById('closeInvoiceModal');
+        const downloadVoucherButton = document.getElementById('downloadVoucher');
+        
+        // Add event listeners for Invoice/Download buttons in your application
+        // For demo purposes, we'll add a generic listener
+        document.querySelectorAll('.download-invoice, .download-voucher').forEach(button => {
+            button.addEventListener('click', () => {
+                invoiceModal.classList.remove('hidden');
+            });
+        });
+        
+        if (closeInvoiceModal) {
+            closeInvoiceModal.addEventListener('click', () => {
+                invoiceModal.classList.add('hidden');
+            });
+        }
+        
+        if (downloadVoucherButton) {
+            downloadVoucherButton.addEventListener('click', () => {
+                // In a real app, this would trigger PDF download
+                alert('Voucher PDF downloaded successfully!');
+                invoiceModal.classList.add('hidden');
+            });
+        }
+        
+        // Verification Modal
+        const verificationModal = document.getElementById('verificationModal');
+        const closeVerificationModal = document.getElementById('closeVerificationModal');
+        const verifyButton = document.getElementById('verifyButton');
+        const verificationResult = document.getElementById('verificationResult');
+        
+        // Add event listeners for Verify buttons in your application
+        // For demo purposes, we'll add a generic listener
+        document.querySelectorAll('.verify-booking').forEach(button => {
+            button.addEventListener('click', () => {
+                verificationModal.classList.remove('hidden');
+            });
+        });
+        
+        if (closeVerificationModal) {
+            closeVerificationModal.addEventListener('click', () => {
+                verificationModal.classList.add('hidden');
+                verificationResult.classList.add('hidden');
+            });
+        }
+        
+        if (verifyButton) {
+            verifyButton.addEventListener('click', () => {
+                // Simulate verification
+                setTimeout(() => {
+                    verificationResult.classList.remove('hidden');
+                }, 1000);
+            });
+        }
+        
+        // Add this script to handle the verification link in the footer
+        document.addEventListener('DOMContentLoaded', function() {
+            const verificationLink = document.querySelector('footer a[href="#"]');
+            if (verificationLink) {
+                verificationLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    verificationModal.classList.remove('hidden');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
