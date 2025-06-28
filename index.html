@@ -24,6 +24,28 @@
             }
         }
     </script>
+  <script>
+  document.getElementById("booking-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const name = form.name.value;
+    const passport = form.passport.value;
+
+    const response = await fetch("https://rit-travel-api.onrender.com/api/bookings/create", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ name, passport })
+    });
+
+    const result = await response.json();
+    alert(result.message || "Booking submitted successfully!");
+    form.reset();
+  });
+</script>
+
 </head>
 <body class="bg-gray-50">
     <!-- Navigation Bar -->
